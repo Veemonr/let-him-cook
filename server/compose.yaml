@@ -1,0 +1,25 @@
+services:
+  orchestrator:
+    build: ./orchestrator
+    ports:
+      - "80:4000"
+    environment:
+      - APP_SERVICE_LINK=http://app:3002
+      - USER_SERVICE_LINK=http://user:3001
+      - REDIS_SERVER_URL=${REDIS_SERVER_URL}
+  app:
+    build: ./services/app
+    ports:
+      - "3002:3002"
+    environment:
+      - SECRET_KEY=${SECRET_KEY}
+      - NODE_ENV=production
+      - DATABASE_URL=postgres://postgres.bzmptbnypebntnnqfjgu:jxY3I0wh8dRyFbNV@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres       
+    
+  user:
+    build: ./services/users
+    ports:
+      - "3001:3001"
+    environment:
+      - MONGODB_URL=${MONGODB_URL}
+      - NODE_ENV=production

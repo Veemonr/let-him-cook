@@ -1,0 +1,62 @@
+654f5f4255dff950e5c2550d
+
+
+{
+  "data": {
+    "itemById": {
+      "item": {
+        "Category": {
+          "name": "Salad"
+        },
+        "Ingredients": [
+          {
+            "name": "saus teriyaki"
+          },
+          {
+            "name": "ayam"
+          }
+        ],
+        "authorId": "654f5f4255dff950e5c2550d",
+        "categoryId": "2",
+        "description": "ayam diteriyaki",
+        "id": "1",
+        "imgUrl": "https://img.kurio.network/q7UzIoRr5_zksl1ELmmjRLSZUjg=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/12/29/36a70d3a-e042-4dee-a32b-e9ad8e05c30d.jpe",
+        "name": "ayam teriyaki",
+        "price": 20000
+      },
+      "author": {
+        "email": "test",
+        "password": "$2a$10$LKWNA84dgq7QeamHSG3eeOEjsd4IOBkGGIIXIXUwal2D2FaLA1QZa",
+        "address": null,
+        "_id": "654f5f4255dff950e5c2550d",
+        "phoneNumber": null,
+        "role": null,
+        "username": null
+      }
+    }
+  }
+}
+
+
+
+
+
+
+{
+  "itemByIdId": "1",
+  "editItemId": 1,
+  "name": "ayamteriyaki",
+  "description": "Ayam di teriyaki ayam",
+  "price": 30000,
+  "imgUrl": "https://img.kurio.network/q7UzIoRr5_zksl1ELmmjRLSZUjg=/1200x1200/filters:quality(80)/https://kurio-img.kurioapps.com/21/12/29/36a70d3a-e042-4dee-a32b-e9ad8e05c30d.jpe",
+  "ingredients": [
+    {
+      "name": "ayam"
+    },
+    {
+      "name": "saus teriyaki"
+    }
+  ],
+  "authorId": "654f5f4255dff950e5c2550",
+  "categoryId": 3
+}

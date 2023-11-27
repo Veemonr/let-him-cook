@@ -1,0 +1,149 @@
+{
+    "Items": [
+      {
+        "id": 1,
+        "name": "Standart Buffet",
+        "price": 239000,
+        "description": "All you can eat dengan menu standart",
+        "imgUrl": "https://menu.gyu-kaku.id/wp-content/uploads/2023/09/FA-STANDARD-BUFFET-MENU-GK-A3_2023-01-2000x1200.jpg",
+        "authorId": 1,
+        "categoryId": 1
+      },
+      {
+        "id": 2,
+        "name": "Premium Buffet",
+        "price": 429000,
+        "description": "All you can eat dengan menu premium",
+        "imgUrl": "https://menu.gyu-kaku.id/wp-content/uploads/2023/09/MENU-A3_GK_PREMIUM-BUFFET_2023_NON-BEER-01-2000x1200.jpg",
+        "authorId": 1,
+        "categoryId": 1
+      },
+      {
+        "id": 3,
+        "name": "Potato Salad",
+        "price": 40000,
+        "description": "Salad dengan kentang dan mayoness",
+        "imgUrl": "https://www.culinaryhill.com/wp-content/uploads/2022/06/Easy-Potato-Salad-Culinary-Hill-1200x800-1.jpg",
+        "authorId": 2,
+        "categoryId": 2
+      },
+      {
+        "id": 4,
+        "name": "Chicken Katsu",
+        "price": 45000,
+        "description": "Ayam yang digoreng dan diberi bumbu katsu",
+        "imgUrl": "https://chefsavvy.com/wp-content/uploads/Chicken-Katsu-1200x1200.jpg",
+        "authorId": 3,
+        "categoryId": 3
+      }
+    ],
+    "Categories": [
+      {
+        "id": 1,
+        "name": "Buffet"
+      },
+      {
+        "id": 2,
+        "name": "Salad"
+      },
+      {
+        "id": 3,
+        "name": "Main Course"
+      }
+    ],
+    "Ingredients": [
+      {
+        "id": 1,
+        "itemId": 1,
+        "name": "Beef"
+      },
+      {
+        "id": 2,
+        "itemId": 1,
+        "name": "Mushroom"
+      },
+      {
+        "id": 3,
+        "itemId": 1,
+        "name": "Lettuce"
+      },
+      {
+        "id": 4,
+        "itemId": 2,
+        "name": "Tuna"
+      },
+      {
+        "id": 5,
+        "itemId": 2,
+        "name": "Shrimp"
+      },
+      {
+        "id": 6,
+        "itemId": 2,
+        "name": "Wagyu Beef"
+      },
+      {
+        "id": 7,
+        "itemId": 3,
+        "name": "Potato"
+      },
+      {
+        "id": 8,
+        "itemId": 3,
+        "name": "Cabbage"
+      },
+      {
+        "id": 9,
+        "itemId": 3,
+        "name": "Mayoness"
+      },
+      {
+        "id": 10,
+        "itemId": 4,
+        "name": "Chicken"
+      },
+      {
+        "id": 11,
+        "itemId": 4,
+        "name": "Rice"
+      }
+    ],
+    "Users": [
+      {
+        "id": 1,
+        "username": "jenshon",
+        "email": "jenshon@mail.com",
+        "password": "123456",
+        "role": "admin",
+        "phoneNumber": "08218372132",
+        "address": "Surabaya"
+      },
+      {
+        "id": 2,
+        "username": "Veemon",
+        "email": "Veemon@mail.com",
+        "password": "123456",
+        "role": "admin",
+        "phoneNumber": "09129832121",
+        "address": "Bandung"
+      },
+      {
+        "id": 3,
+        "username": "John Doe",
+        "email": "jogn@mail.com",
+        "password": "123456",
+        "role": "admin",
+        "phoneNumber": "0987381728",
+        "address": "Jakarta"
+      },
+      {
+        "id": 4,
+        "username": "joe",
+        "email": "joe@mail.com",
+        "password": "123456",
+        "role": "customer",
+        "phoneNumber": "08218372132",
+        "address": "Bogor"
+      }
+    ]
+  }
